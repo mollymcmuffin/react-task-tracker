@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
+
 const Header = ({title}) => {
   
   const whenClick = () =>{
@@ -11,6 +12,7 @@ const Header = ({title}) => {
     <header className = 'header'>
         <h1>{title}</h1>
         <Button text = 'Add' color = 'green' whenClick = {whenClick}/>
+        
     </header>
   )
 }
